@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+h1, h2, p {
+  text-align: center;
+}
+p {
+  font-size: 12px;
+}
+
+form{
+  margin: 0 auto;
+  width: 500px;
+  padding: 2em;
+  border: 20px black;
+  border-top: double;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+}
+header, footer {
+    height: 50px;
+    width: 100%;
+    background-color: #333333;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+
+footer {
+  font-size: .8em;
+}
+
+input:hover {
+    border-bottom: 10px solid #0099cc;
+}
+input,
+textarea {
+  background-color: #D1D1D1;
+  padding-left: 10px;
+  padding-left: 10px;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+.radiobtn input[type="radio"] {
+    width: auto;
+    Height: 12px;
+}
+
+.radiobtn {
+  text-align: justify;
+}
+input[type=submit] {
+  background-color: purple;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
