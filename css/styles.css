@@ -17,13 +17,16 @@ body {
  background-repeat: no-repeat;
  background-size: cover;
 }
-form{
+form,
+fieldset  {
   margin: 0 auto;
-  width: 300px;
-  padding: 1em;
+  width: 290px;
   border:30px black;
-  border-top: double;
   background-color: white;
+}
+
+fieldset {
+  border-top: double;
 }
 
 .zip {
@@ -43,7 +46,7 @@ form li + li {
 
 label {
   display: inline-block;
-  width: 90px;
+  width: auto;
   padding-left: 10px;
   font-size: 12px;
 }
@@ -112,6 +115,7 @@ input[type="checkbox"]
  {
     width: 12px;
     Height: 12px;
+    margin-left: 5px;
 }
 
 input[type=submit] {
@@ -132,7 +136,8 @@ input[type=submit] {
 }
 
 @media only screen and (min-width: 768px) {
-  form {
+  form,
+  fieldset {
     width: 500px;
   }
   input,
