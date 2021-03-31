@@ -26,6 +26,10 @@ form{
   background-color: white;
 }
 
+.zip {
+  width: 50%;
+}
+
 ul {
   list-style: none;
   padding: 10px;
@@ -45,9 +49,10 @@ label {
 }
 
 
-input:focus,
-textarea:focus {
-  border-color: #000;
+input:hover,
+select:hover,
+input[type=submit]:hover {
+    border-bottom: 10px solid pink;
 }
 
 textarea {
@@ -77,17 +82,29 @@ footer {
 
 
 input:hover,
+select:hover,
 input[type=submit]:hover {
     border-bottom: 10px solid #0099cc;
 }
 input,
-textarea {
+textarea  {
   background-color: #D1D1D1;
   margin-left:10px;
   margin-right: 10px;
-  width: 240px;
+  width: 100%;
   box-sizing: border-box;
   border: 1px solid #999;
+}
+
+select {
+  width: 100%;
+  background-color: #D1D1D1;
+  margin-left:10px;
+  margin-right: 10px;
+}
+
+#zip {
+  width: 50%;
 }
 
 .radiobtn input[type="radio"],
@@ -101,9 +118,9 @@ input[type=submit] {
   background-color: purple;
   color: white;
   border: none;
-  width: 200px;
+  width: 100%;
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -119,9 +136,13 @@ input[type=submit] {
     width: 500px;
   }
   input,
-  textarea {
+  textarea,
+  select {
     margin-left:90px;
     margin-right:90px;
-    width: 320px;
+    width: 350px;
+  }
+  #zip {
+    width: 25%;
   }
 }
